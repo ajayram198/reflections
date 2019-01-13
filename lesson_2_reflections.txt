@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+7What happens when you initialize a repository? Why do you need to do it?
 We initalize a repository so that Git can start tracking these files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
