@@ -15,3 +15,10 @@ Using git log --graph we get diagrams of the branch structure. Diagrams are a pi
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging 2 branches takes in all the changes done in both branches (master and the branch) and makes master point to the merged commit. The commit log, if checked will have two parents. Representing in the digram form is easier to understand the commit structure.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves time and effort. but it may merge unindented files and cause unwanted changes. for example, if one branch deleted a
+    function, and another branch added a call to that function, Git would merge
+    those together with no conflict and the resulting code would be broken.
+, clarify this with Kranthi
+Manual merging always gives the authority to the user to merge so it is safer.
