@@ -12,3 +12,6 @@ Branches are useful when you are adding a new experimental feature to the softwa
 
 How do the diagrams help you visualize the branch structure?
 Using git log --graph we get diagrams of the branch structure. Diagrams are a pictorial manner of representing the branches and relationships between commits. They help in visualizing the entire commit history.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging 2 branches takes in all the changes done in both branches (master and the branch) and makes master point to the merged commit. The commit log, if checked will have two parents. Representing in the digram form is easier to understand the commit structure.
