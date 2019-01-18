@@ -9,3 +9,6 @@ Fork is when you copy someones repository on Github to your account. So then you
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Benefit is that the latest version of the repository is always available with you upto date. And if you dont have Internet access, then you can still work on your repository, knowing very well that you have the latest version before goingout of Internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Using Google Drive, and emails. Zip the software code and upload it to Googledrive then share it with BMPL.
