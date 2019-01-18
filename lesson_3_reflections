@@ -12,3 +12,6 @@ Benefit is that the latest version of the repository is always available with yo
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Using Google Drive, and emails. Zip the software code and upload it to Googledrive then share it with BMPL.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It is better to make changes in a separate branch rather than master when you are writing experimental code and dont want to break working version master. We can work directly with master when you we are working on own or with one or 2 ppl.
